@@ -1,0 +1,101 @@
+.header{
+    display: block;
+    width: 100%;
+    background-color: rgba(32, 121, 223, 0.781);
+    color: white;
+}
+h1{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+body{
+    background: #eee;
+    margin: 0;
+}
+.newConfession{
+    background-color: white;
+    box-shadow: 0 1px 5px rgb(138 137 137);
+    margin-top: 20px;
+    text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    height: 300px;
+    font-family: "Montserrat", sans-serif;
+}
+form{
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    display: block;
+}
+form>text,textarea,input{
+    max-width: 80%;
+    outline: none;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    text-align: center;
+    resize: none;
+    font-size: 20px;
+}
+
+.items{
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 1px 5px rgb(138 137 137);
+    margin-top: 20px;
+    text-align: center;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    height: 130px;
+    min-height: 230px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(0, 0, 0, 0.623);
+}
+.old{
+    margin-top: 100px;
+}
+.count{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+p,h3{
+    font-size: 15px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+.count-box{
+    font-size: 20px;
+    margin-top: 100px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgba(0, 0, 0, 0.623);
+
+}
+
+hr{
+    margin-top: 50px;
+}
+footer{
+    color: rgba(0, 0, 0, 0.432);
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    margin-top: 100px;
+    height: 350px;
+    width: 360px;
+}

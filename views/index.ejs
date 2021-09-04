@@ -1,0 +1,36 @@
+<%- include('header.ejs') %> 
+<div class="container">
+    <div class="newConfession">
+        <form action="/" method="POST">
+            <input type="text" name="name" placeholder="Recipient's name" autocomplete="off" autofocus="on">
+            <textarea name="content" cols="30" rows="5" placeholder="confess here..."></textarea>
+            <button type="submit" style="border-radius: 50%;background:rgba(32, 121, 223, 0.781);color: white;font-size: 20px;margin-top: 50px;">Les go</button>
+        </form>
+    </div>
+</div>
+<hr>
+<div class="count-box">
+    
+    <div style="text-align: center;">
+    <label for="button">Confessions made so far</label>
+    <button class="count"><%= count %> </button>
+    <br>
+    <br>
+    <a href="https://www.instagram.com/indumsitesgotnocheel/" style="color: rgba(0, 0, 0, 0.623);text-decoration: none;">Contact admin : <i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+</div>
+    
+</div>
+<br>
+<br>
+<hr>
+<div class="old">
+    <% results.forEach(element => { %>
+        <div class="items">
+            <h3>To : <%= element.name %> </h3>
+            <h1 style="font-size: 11px; font-weight: normal;">Date : <%= element.date %></h1>
+            <p><%= element.content %> </p>
+        </div>
+    <% }) %> 
+</div>
+<%- include('footer.ejs') %> 
